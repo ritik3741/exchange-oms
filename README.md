@@ -82,11 +82,11 @@ Test documents included:
 ## How to Run the Project
 
 ### 1. Install dependencies
-pip install fastapi uvicorn sqlalchemy
+`pip install fastapi uvicorn sqlalchemy`
 
 
 ### 2. Start the server
-uvicorn main:app --reload
+`uvicorn main:app --reload`
 
 
 ### 3. Open API documentation
