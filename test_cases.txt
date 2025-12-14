@@ -1,0 +1,26 @@
+TC_01: New Order Creation
+Step: Place new order
+Expected: Order status = NEW
+
+TC_02: Modify NEW Order
+Step: Modify quantity and price
+Expected: Order updated successfully
+
+TC_03: Modify EXECUTED Order
+Step: Try modify after execution
+Expected: Error shown
+
+TC_04: Cancel NEW Order
+Expected: Status = CANCELLED
+
+TC_05: Cancel EXECUTED Order
+Expected: Error shown
+
+TC_06: Execute NEW Order
+Expected: Status = EXECUTED
+
+TC_07: Duplicate Execution
+Expected: Error shown
+
+TC_08: View Orders
+Expected: Correct status shown from database

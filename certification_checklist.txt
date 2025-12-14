@@ -1,0 +1,9 @@
+CERTIFICATION CHECKLIST
+
+✔ New orders accepted
+✔ Only NEW orders can be modified
+✔ Only NEW orders can be cancelled
+✔ Only NEW orders can be executed
+✔ Order state transitions validated
+✔ Database state matches API response
+✔ No invalid transitions allowed

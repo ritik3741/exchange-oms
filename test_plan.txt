@@ -1,0 +1,15 @@
+ORDER MANAGEMENT SYSTEM – TEST PLAN
+
+Objective:
+Verify correctness of order lifecycle and system behavior.
+
+Scope:
+- New Order
+- Modify Order
+- Cancel Order
+- Execute Order
+- Database validation
+
+Out of Scope:
+- Performance
+- Security
